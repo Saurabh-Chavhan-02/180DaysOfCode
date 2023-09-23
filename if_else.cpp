@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //Package Program
     int package;
     cin>>package;
 
@@ -14,7 +15,7 @@ int main()
     {
         cout<<"Rejected";
     }
-
+    //Pass or Fail Program
     int marks;
     cout << "Enter your marks: ";
     cin >> marks;
@@ -22,7 +23,7 @@ int main()
         cout << "Pass";
     else
         cout << "Fail";
-
+    //a is greater than b program
     int a, b;
     cout<<"Enter your first Number: ";
     cin>>a;
@@ -36,7 +37,7 @@ int main()
     else{
         cout<<"No";
     }
-
+    //Even or Odd Program
     int number;
     cout<<"Enter your first Number: ";
     cin>>number;
@@ -49,7 +50,7 @@ int main()
     {
         cout<<"Odd";
     }
-
+    //Age Program
     int age;
     cout<<"Enter your age: ";
     cin>>age;
@@ -62,7 +63,7 @@ int main()
     {
         cout<<"Teenager";
     }
-
+    //Positive, Negative or Zero Program
     int num;
     cout<<"Enter a Number: ";
     cin>>num;
@@ -74,8 +75,9 @@ int main()
     else
     cout<<"Negative";
 
+    //Vowel or Consonant Program
     char c = 'k';
-
+    
     if(c == 'a' && c ==  'e' && c ==  'i' && c ==  'o' && c ==  'u')
     {
         cout<<"Vowel";
@@ -84,7 +86,8 @@ int main()
     {
         cout<<"consonant";
     }
-
+    
+    //Day Program
     int n;
     cout<<"Enter number: ";
     cin>>n;
@@ -121,6 +124,7 @@ int main()
         cout<<"Enter Valid day";
     }
 
+    //print 100 times Coder Army
     int count=1;
     while(count<=100)
     {
@@ -128,16 +132,13 @@ int main()
         count=count+1;
     }
 
+    //print 1 to 10 squre of numbers program
     for(int i=1; i<=10; i=i+1)
     {
         cout<< i*i<<endl;
     }
 
-    for(int count = 1; count>0; count = count +1) 
-    {
-        cout<<"Coder Army\n";
-    }
-
+    //print 1 to 30 hello
     for(int i=10; i<30; i++) 
     {
         cout<<"hello\n";
@@ -179,7 +180,7 @@ int main()
         }
     }
     //1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49India will win the World Cup 2023
-
+    
     //print India will win the World Cup 2023 for 20 times
     for(int i=1; i<=20; i++) 
     {
@@ -197,8 +198,7 @@ int main()
             cout<<i<<" ";
         }
     }
-
-
+    
     //Month Program
     int n;
     cout<<"Enter the Number: ";
@@ -230,7 +230,6 @@ int main()
     cout<<"December";
     else
     cout<<"Enter Invalid Month";
-
 
     //print if you are eligible for ticket discount or not 
     int n;
