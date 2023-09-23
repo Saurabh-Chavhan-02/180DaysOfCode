@@ -18,10 +18,10 @@ int main()
         cout<<i<<" ";
     }
 
+    //print n with 3 no jums
     int n;
     cout<<"Enter the number: ";
     cin>>n;
-    //print n with 3 no jums
     for(int i=1; i<=n; i=i+3)
     {
         cout<<i<<" ";
@@ -41,6 +41,7 @@ int main()
         cout<<i<<" ";
     }
 
+    //power program 
     int n,pow,num;
     cout<<"Enter the number: ";
     cin>>n;
@@ -125,13 +126,13 @@ int main()
         cout<<i<<" ";
     }
 
-    //print char from 'A' to 'Z'
+    //print char from A to Z
     for(char ch='A'; ch<='Z'; ch++)
     {
         cout<<ch<<" ";
     }
 
-    //print char from 'Z' to 'A'
+    //print char from Z to A
     for(char ch='Z'; ch>='A'; ch--)
     {
         cout<<ch<<" ";
@@ -143,7 +144,7 @@ int main()
         cout<<i<<" ";
     }
 
-    //print sum of squre of n natural numbers
+    //print sum of square of n natural numbers
     int n, sum=0;
     cout<<"Enter a Number: ";
     cin>>n;
@@ -152,6 +153,10 @@ int main()
         sum+=i*i;
     }
     cout<<sum;
+
+    //or
+
+    cout<< [n(n+1)(2n+1)] / 6.
 
     //print sum of cube of n natural numbers 
     int n, sum=0;
