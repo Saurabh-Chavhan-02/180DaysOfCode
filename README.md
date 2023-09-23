@@ -1,5 +1,2 @@
-# projects
-
-This is my first Git Repository.
-<br>
-Author - Saurabh Chavhan (FAANG)
+#180DaysOfCode Challenge
+- CoderArmy(Rohit Bhaiya)
